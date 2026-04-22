@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gayatri Degree College</title>
+    <link rel="stylesheet" href="gayatri.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="header-content">
+            <h1>Gayatri Degree College</h1>
+            <p>Empowering Students for a Bright Future</p>
+        </div>
+    </header>
+
+<nav>
+    <button onclick="showSection('home')">Home</button>
+    <button onclick="showSection('about')">About</button>
+    <button onclick="showSection('courses')">Courses</button>
+    <button onclick="showSection('contact')">Contact</button>
+</nav>
+
+<!-- Sections -->
+<section id="home" class="content">
+    <div class="hero">
+        <h2>Welcome to Gayatri Degree College</h2>
+        <p>Your journey to success starts here</p>
+        <button class="cta-btn" onclick="showSection('courses')">Explore Courses</button>
+    </div>
+
+    <div class="home-info">
+        <div class="info-card">
+            <h3>Quality Education</h3>
+            <p>Experienced faculty and modern teaching methods.</p>
+        </div>
+        <div class="info-card">
+            <h3>Career Support</h3>
+            <p>Guidance for jobs, internships, and future growth.</p>
+        </div>
+        <div class="info-card">
+            <h3>Campus Life</h3>
+            <p>Friendly environment with extracurricular activities.</p>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="content" style="display:none;">
+    <div class="about-container">
+        <h2>About Gayathri Degree College</h2>
+        <p class="about-intro">
+            Gayatri Degree College is committed to providing quality education, fostering innovation, 
+            and shaping students into responsible citizens and future leaders.
+        </p>
+
+        <div class="about-grid">
+            <div class="about-card">
+                <h3>Our Mission</h3>
+                <p>To deliver excellent education and empower students with knowledge, skills, and values.</p>
+            </div>
+
+            <div class="about-card">
+                <h3>Our Vision</h3>
+                <p>To become a leading institution recognized for academic excellence and student success.</p>
+            </div>
+
+            <div class="about-card">
+                <h3>Why Choose Us?</h3>
+                <ul>
+                    <li>Experienced Faculty</li>
+                    <li>Modern Infrastructure</li>
+                    <li>Career Guidance</li>
+                    <li>Supportive Environment</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="courses" class="content" style="display:none;">
+    <h2>Our Courses</h2>
+    <div class="courses">
+        <div class="card">
+            <h3>B.Sc Computers</h3>
+            <p>Focus on programming, software development, and IT skills.</p>
+        </div>
+        <div class="card">
+            <h3>B.Sc Microbiology</h3>
+            <p>Study of microorganisms and laboratory research skills.</p>
+        </div>
+        <div class="card">
+            <h3>B.Com</h3>
+            <p>Commerce and business-related subjects.</p>
+        </div>
+        <div class="card">
+            <h3>B.A Political Science</h3>
+            <p>Understanding political systems and governance.</p>
+        </div>
+        <div class="card">
+            <h3>B.A Economics</h3>
+            <p>Study of economy, markets, and financial systems.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="content" style="display:none;">
+    <h2>Contact Us</h2>
+    <p>Email: info@gayathricollege.com</p>
+    <p>Phone: +91 0000000000</p>
+</section>
+
+<footer>
+    <p>&copy; 2026 Gayatri Degree College. All Rights Reserved.</p>
+</footer>
+
+<script src="gayatri.js"></script>
+</body>
+</html>
